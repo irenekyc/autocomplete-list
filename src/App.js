@@ -12,6 +12,7 @@ function App() {
     setError(false)
     setLoading(true)
     fetchData(query)
+    setCountries(null)
   }, 500)
 
   const fetchData = async (query)=>{
